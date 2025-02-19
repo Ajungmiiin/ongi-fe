@@ -10,7 +10,7 @@ const MatchingResult = () => {
       <div>
         <header className="relative mb-8 py-4">
           <button onClick={() => navigate('/center')} className="absolute top-0 bottom-0 left-0 cursor-pointer">
-            <img src="/images\arrow.png" alt="뒤로가기" />
+            <img src="public/arrow.png" alt="뒤로가기" />
           </button>
           <h3 className="text-center text-2xl font-semibold">매칭 결과 조회</h3>
         </header>

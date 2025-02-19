@@ -25,14 +25,14 @@ const Home = () => {
     <main className="flex min-h-[100svh] flex-col justify-between">
       <div className="mt-20 text-center">
         <h1>
-          <img src="images/Logo_text.png" alt="로고" />
+          <img src="public/Logo_text.png" alt="로고" />
         </h1>
       </div>
       <div className="space-y-4 p-5">
         {/* 요양보호사용 */}
         <Link to="/login?q=caregiver" className={`${LinkStyle} bg-[#FFF5EA]`}>
           <div>
-            <img src="images/girl.png" alt="요양보호사 이미지" />
+            <img src="public/caregiver.png" alt="요양보호사 이미지" />
           </div>
           <div className="text-left">
             <p className={ButtonDesc}>구직자용 로그인</p>
@@ -43,7 +43,7 @@ const Home = () => {
         {/* 관리자용 */}
         <Link to="/login?q=center" className={`${LinkStyle} bg-[#EEF6FF]`}>
           <div>
-            <img src="images/men.png" alt="요양보호사 이미지" />
+            <img src="public/center.png" alt="요양보호사 이미지" />
           </div>
           <div className="text-left">
             <p className={ButtonDesc}>구인자용 로그인</p>

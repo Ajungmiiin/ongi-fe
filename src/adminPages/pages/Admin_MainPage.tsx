@@ -108,7 +108,7 @@ const MainPage = () => {
         </div>
         <div>
           <div className="mb-3 overflow-hidden rounded-full border border-gray-200">
-            <img src="src/assets/images/image1.png" alt="caregiver-profile-image" />
+            <img src="public/center.png" alt="caregiver-profile-image" />
           </div>
 
           {/* 라우트 경로 임의 설정 */}

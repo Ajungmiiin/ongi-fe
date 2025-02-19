@@ -21,7 +21,7 @@ const SeniorInfoPage = () => {
     <section className="flex min-h-[100svh] flex-col justify-between p-5">
       <header className="relative py-4">
         <button onClick={() => navigate('/center')} className="absolute top-0 bottom-0 left-0">
-          <img src="/images\arrow.png" alt="뒤로가기" />
+          <img src="public/arrow.png" alt="뒤로가기" />
         </button>
         <h3 className="text-center text-2xl font-semibold">어르신 등록 및 수정</h3>
       </header>
